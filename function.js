@@ -44,3 +44,13 @@ function getFahrenheit(celsius) {
 };
 
 getFahrenheit(15);
+//function expression
+const plantNeedsWater = function(day) {
+  if (day === 'Wednesday') {
+    return true
+  } else {
+    return false
+  }
+};
+plantNeedsWater('Tuesday');
+console.log(plantNeedsWater('Tuesday'));
