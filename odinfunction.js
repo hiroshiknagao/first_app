@@ -16,3 +16,8 @@ function capitalize(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 console.log(capitalize("dog"))
+
+function lastLetter(str) {
+  return str.slice(-1)
+}
+console.log(lastLetter("dog"));
